@@ -1,0 +1,35 @@
+{
+  "name": "sort.io",
+  "version": "1.0.0",
+  "description": "basic sorting service that reads that data from CSV and classifies this data.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Overrideveloper/Sort.io.git"
+  },
+  "keywords": [
+    "sort",
+    "CSV",
+    "HackBHU",
+    "JSON",
+    "classifier"
+  ],
+  "author": "Overrideveloper <bansowisdom@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Overrideveloper/Sort.io/issues"
+  },
+  "homepage": "https://github.com/Overrideveloper/Sort.io#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
